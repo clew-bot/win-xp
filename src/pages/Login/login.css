@@ -8,6 +8,8 @@
     background: var(--login-middle-background);
     padding: 2rem;
     height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .login-bottom {

@@ -1,4 +1,5 @@
 import React from 'react'
+import winXpLogo from "../../assets/images/win-xp-logo.png"
 import './login.css'
 
 const Login = () => {
@@ -6,15 +7,17 @@ const Login = () => {
     <div className="login-container">
         <div className="login-top">
             {/* TopSection */}
-            Hello ;)
         </div>
         <div className="login-middle">
             {/* MiddleSection */}
             <div className="login-middle-left">
                 {/* LeftSection */}
+                
+                <img src={winXpLogo} height="250px" width="250px" />
+
             </div>
             {/* hr */}
-            <div className="divider"></div>
+            {/* <div className="divider"></div> */}
             <div className="login-middle-left">
                 {/* RightSection */}
             </div> 

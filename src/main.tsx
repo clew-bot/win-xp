@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import  Desktop  from '../pages/Desktop/desktop'
-import  Login  from '../pages/Login/login'
+import  Desktop  from './pages/Desktop/desktop'
+import  Login  from './pages/Login/login'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
