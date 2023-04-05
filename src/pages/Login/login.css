@@ -12,6 +12,10 @@
     justify-content: space-evenly;
 }
 
+.begin-font {
+    color: white;
+}
+
 .login-bottom {
     background: var(--login-bottom-background);
 

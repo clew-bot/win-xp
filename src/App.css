@@ -3,3 +3,12 @@
     --login-middle-background: #597EDD;
     --login-bottom-background: #192377;
 }
+
+@font-face {
+    font-family: Tahoma;
+    src: url('./assets/fonts/TahomaRegularFont.ttf');
+}
+
+* {
+    font-family: Tahoma;
+}

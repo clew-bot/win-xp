@@ -14,7 +14,9 @@ const Login = () => {
                 {/* LeftSection */}
                 
                 <img src={winXpLogo} height="250px" width="250px" />
-
+                <div className="begin-font">
+                    To begin, click your user name
+                </div>
             </div>
             {/* hr */}
             {/* <div className="divider"></div> */}
