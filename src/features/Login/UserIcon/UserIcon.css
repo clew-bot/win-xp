@@ -1,0 +1,24 @@
+.chess-icon {
+    border: solid 1px var(--icon-border);
+    border-radius: 5px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-name {
+    color: white;
+}
+
+.icon-wrapper {
+    border: solid 2px #5071BF;
+    padding: 5px;
+    border-right: none;
+    background: red;
+    border-radius: 5px;
+}

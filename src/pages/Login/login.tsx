@@ -1,8 +1,10 @@
 import React from 'react'
+import UserIcon  from '../../features/Login/UserIcon/UserIcon'
+
 import winXpLogo from "../../assets/images/win-xp-logo.png"
 import './login.css'
 
-const Login = () => {
+const Login:React.FC = () => {
   return (
     <div className="login-container">
         <div className="login-top">
@@ -21,6 +23,7 @@ const Login = () => {
             {/* hr */}
             {/* <div className="divider"></div> */}
             <div className="login-middle-left">
+                <UserIcon/>
                 {/* RightSection */}
             </div> 
         </div>
