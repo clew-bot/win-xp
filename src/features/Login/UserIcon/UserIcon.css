@@ -7,8 +7,23 @@
     display: flex;
     flex-direction: row;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     gap: 10px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.icon-container-clicked {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    width: 200px;
+    background: linear-gradient(to right, #1645A7, #5071BF);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .icon-name {
@@ -16,9 +31,10 @@
 }
 
 .icon-wrapper {
-    border: solid 2px #5071BF;
-    padding: 5px;
+    /* border: solid 2px #5071BF; */
+    /* padding: 5px; */
     border-right: none;
-    background: red;
+    /* background: #1645A7; */
     border-radius: 5px;
+    width:200px;
 }

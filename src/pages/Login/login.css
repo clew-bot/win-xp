@@ -10,10 +10,17 @@
     height: 80vh;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.login-middle-left {
+    /* border: solid 2px hotpink; */
 }
 
 .begin-font {
     color: white;
+    
 }
 
 .login-bottom {

@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import UserIcon  from '../../features/Login/UserIcon/UserIcon'
 
 import winXpLogo from "../../assets/images/win-xp-logo.png"
 import './login.css'
+
+
 
 const Login:React.FC = () => {
   return (
@@ -12,7 +14,7 @@ const Login:React.FC = () => {
         </div>
         <div className="login-middle">
             {/* MiddleSection */}
-            <div className="login-middle-left">
+            <div className="login-middle-right">
                 {/* LeftSection */}
                 
                 <img src={winXpLogo} height="250px" width="250px" />
