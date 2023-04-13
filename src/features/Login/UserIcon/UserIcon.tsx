@@ -11,9 +11,14 @@ const UserIcon: React.FC = () => {
   }
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (passwordRef.current && !passwordRef.current.contains(event.target as Node)) {
-      setShowPassword(false)
+    // if (passwordRef.current && !passwordRef.current.contains(event.target as Node)) {
+    //   setShowPassword(false)
+    // }
+    if (event.target instanceof HTMLInputElement) {
+      return
     }
+    setShowPassword(false)
+
   }
 
   useEffect(() => {
@@ -28,7 +33,7 @@ const UserIcon: React.FC = () => {
       <div className="icon-container" onClick={handleShowPassword}>
         <img className="chess-icon" height="50px" width="50px" src={chessIcon} alt="" />
         <div className="icon-name">Chad Lew</div>
-      </div>
+        </div>
       {showPassword && (
         <form action="submit">
         <div ref={passwordRef} className="password-input">
@@ -36,6 +41,7 @@ const UserIcon: React.FC = () => {
         </div>
         </form>
       )}
+      
     </div>
   )
 }

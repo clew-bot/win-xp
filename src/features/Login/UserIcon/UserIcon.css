@@ -9,9 +9,10 @@
     align-items: start;
     justify-content: start;
     gap: 10px;
-    width: 200px;
+    width: 260px;
     padding: 5px;
     border-radius: 5px;
+    position: relative;
 }
 
 .icon-container-clicked {
@@ -20,10 +21,11 @@
     align-items: start;
     justify-content: start;
     gap: 10px;
-    width: 200px;
+    width: 260px;
     background: linear-gradient(to right, #1645A7, #5071BF);
     padding: 5px;
     border-radius: 5px;
+    position: relative;
 }
 
 .icon-name {
@@ -31,10 +33,22 @@
 }
 
 .icon-wrapper {
-    /* border: solid 2px #5071BF; */
-    /* padding: 5px; */
     border-right: none;
-    /* background: #1645A7; */
     border-radius: 5px;
-    width:200px;
+    width:250px;
+    position: relative;
+}
+
+.password-input {
+    position: absolute;
+    top: 45px;
+    right: -13px;
+    width: 200px;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.password-input:focus {
+    outline: none;
 }
