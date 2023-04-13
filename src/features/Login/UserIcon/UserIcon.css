@@ -9,10 +9,11 @@
     align-items: start;
     justify-content: start;
     gap: 10px;
-    width: 260px;
+    width: 300px;
     padding: 5px;
     border-radius: 5px;
     position: relative;
+    vertical-align: text-top !important;
 }
 
 .icon-container-clicked {
@@ -21,15 +22,20 @@
     align-items: start;
     justify-content: start;
     gap: 10px;
-    width: 260px;
-    background: linear-gradient(to right, #1645A7, #5071BF);
+    width: 300px;
+    background: linear-gradient(to right, #1645A7, var(--login-middle-background));
     padding: 5px;
     border-radius: 5px;
     position: relative;
+    
 }
 
 .icon-name {
     color: white;
+    position:relative;
+    top:-5px;
+    /* border: solid 2px hotpink; */
+
 }
 
 .icon-wrapper {
@@ -37,12 +43,13 @@
     border-radius: 5px;
     width:250px;
     position: relative;
+    
 }
 
 .password-input {
     position: absolute;
     top: 45px;
-    right: -13px;
+    right: 36px;
     width: 200px;
     outline: none;
     border-radius: 5px;
@@ -51,4 +58,16 @@
 
 .password-input:focus {
     outline: none;
+}
+
+.type-password {
+    position: absolute;
+    top: 28px;
+    right: 34px;
+    font-size: 10px;
+    color: white;
+    width: 200px;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
 }

@@ -32,12 +32,13 @@ const UserIcon: React.FC = () => {
     <div className={showPassword ? "icon-container-clicked" : "icon-container"}>
       <div className="icon-container" onClick={handleShowPassword}>
         <img className="chess-icon" height="50px" width="50px" src={chessIcon} alt="" />
-        <div className="icon-name">Chad Lew</div>
+        <p className="icon-name">Chad Lew</p>
         </div>
       {showPassword && (
         <form action="submit">
+          <label className="type-password" htmlFor="password">Type your password</label>
         <div ref={passwordRef} className="password-input">
-          <input autoComplete='true' type="password" placeholder="Enter your password" />
+          <input name="password" autoComplete='true' type="password" placeholder="Enter your password" />
         </div>
         </form>
       )}
