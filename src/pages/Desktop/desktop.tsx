@@ -26,6 +26,7 @@ const Home = () => {
   }, []);
 
   return (
+    <>
     <div className='desktop-container'>
       <div>Loading....</div>
       <Card style={{ width: '18rem' }}>
@@ -45,8 +46,10 @@ const Home = () => {
       <div style={{ border: 'solid 2px hotpink', width: '15rem', zIndex: `1`}}>
       <ProgressBar max={MAX_PROGRESS} variant='success' now={progress} />
       </div>
-  <Bar/>
+
     </div>
+      <Bar/>
+    </>
     
   );
 };

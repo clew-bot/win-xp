@@ -1,0 +1,16 @@
+.start_button {
+    background: linear-gradient(to bottom, #74AB43, #326C1B);
+    width: 95px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top:5px;
+    gap:5px;
+
+    cursor: pointer;
+}
+
