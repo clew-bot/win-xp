@@ -3,6 +3,7 @@ import "./desktop.css";
 import Button from 'react-bootstrap/Button';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Progressbar from '../../features/ProgressBar/Progressbar';
+import Bar from '../../features/DTaskbar/Bar/Bar';
 import Card from 'react-bootstrap/Card';
 const Home = () => {
   const [progress, setProgress] = useState(0);
@@ -44,7 +45,7 @@ const Home = () => {
       <div style={{ border: 'solid 2px hotpink', width: '15rem', zIndex: `1`}}>
       <ProgressBar max={MAX_PROGRESS} variant='success' now={progress} />
       </div>
-  
+  <Bar/>
     </div>
     
   );

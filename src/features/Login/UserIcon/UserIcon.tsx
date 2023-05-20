@@ -11,9 +11,6 @@ const UserIcon: React.FC = () => {
   }
 
   const handleClickOutside = (event: MouseEvent) => {
-    // if (passwordRef.current && !passwordRef.current.contains(event.target as Node)) {
-    //   setShowPassword(false)
-    // }
     if (event.target instanceof HTMLInputElement) {
       return
     }

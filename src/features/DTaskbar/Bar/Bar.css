@@ -1,0 +1,7 @@
+.desktop_taskbar {
+    background-color: #235DD9;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
